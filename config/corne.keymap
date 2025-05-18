@@ -9,24 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        backspace_delete: backspace_delete {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
-            bindings = <&kp BACKSPACE>, <&kp DELETE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        capslock_layer1: capslock_layer1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CAPSLOCK_LAYER1";
-            #binding-cells = <0>;
-            bindings = <&mo 1>, <&kp CAPSLOCK>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -38,16 +20,6 @@
         capslock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <17 18>;
-        };
-    };
-
-    macros {
-        delete_word: delete_word {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp>;
-
-            label = "DELETE_WORD";
         };
     };
 
