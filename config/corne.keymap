@@ -62,8 +62,8 @@
 
         shortcuts {
             bindings = <
-&trans  &kp LC(A)    &kp LC(Z)  &kp LC(P)  &none      &kp C_VOLUME_UP    &kp RA(F4)  &none   &none   &none  &none  &trans
-&trans  &none        &kp LC(X)  &kp LC(W)  &kp LC(V)  &kp C_VOL_DN       &none       &none   &none   &none  &none  &trans
+&trans  &none        &kp LC(Z)  &kp LC(P)  &none      &kp C_VOLUME_UP    &kp RA(F4)  &none   &none   &none  &none  &trans
+&trans  &kp LC(A)    &kp LC(X)  &kp LC(W)  &kp LC(V)  &kp C_VOL_DN       &none       &none   &none   &none  &none  &trans
 &trans  &kp RA(TAB)  &none      &none      &none      &none              &none       &none   &none   &none  &none  &trans
                                 &trans     &trans     &trans             &trans      &trans  &trans
             >;
