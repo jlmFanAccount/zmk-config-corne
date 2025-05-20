@@ -23,7 +23,7 @@
         };
 
         desk {
-            bindings = <&kp LG(D)>;
+            bindings = <&kp LG(I)>;
             key-positions = <17 29>;
         };
 
